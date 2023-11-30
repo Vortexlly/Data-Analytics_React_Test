@@ -1,5 +1,6 @@
 import './App.css';
 import Nav from './Components/Nav/Nav';
+import Promo from './Components/Promo/Promo';
 import TrialItem from "./Components/Trial/TrialItem";
 import { trialData1, trialData2, trialData3 } from './Components/Trial/trialData';
 
@@ -10,6 +11,7 @@ function App() {
     <main>
       <header className='header'>
         <Nav/>
+        <Promo/>
       </header>
       <section className="trial">
         <TrialItem data={trialData1}/>
