@@ -19,7 +19,7 @@ export const trialData2 = {
     alt: 'person icon'
 }
 export const trialData3 = {
-    name: 'Three user',
+    name: 'Three users',
     price: 440,
     storage: 1000,
     users: 3,
