@@ -9,6 +9,12 @@
     text-decoration: none;
 }
 
+.header {
+    width: 100%;
+    height: 1080px;
+    background: #000;
+}
+
 .trial {
     display: flex;
     justify-content: space-between;
