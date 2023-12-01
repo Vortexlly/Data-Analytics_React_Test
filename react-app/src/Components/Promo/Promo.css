@@ -53,9 +53,6 @@
     font-weight: 700;
     line-height: 32px;
     margin-bottom: 24px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typewriter 3s 1 forwards;
 }
 
 .promo__btn {
@@ -80,5 +77,30 @@
 @keyframes typewriter {
     from {
         width: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .promo {
+        height: 700px;
+        padding: 0;
+    }
+    .promo__green-text {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .promo__big-text {
+        width: 252px;
+        font-size: 36px;
+        line-height: 40px;
+        margin-bottom: 16px;
+    }
+    .promo__title {
+        width: 268px;
+        font-size: 19px;
+    }
+    .promo__descr {
+        width: 90vw;
+        font-size: 20px;
     }
 }
