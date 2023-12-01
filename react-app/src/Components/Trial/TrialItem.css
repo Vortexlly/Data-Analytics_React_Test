@@ -1,3 +1,10 @@
+.trial {
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 340px;
+    align-items: center;
+}
+
 .trial__item {
     display: flex;
     width: 400px;

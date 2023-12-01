@@ -8,17 +8,19 @@ function App() {
 
 
   return (
-    <main>
+    <div className="container">
       <header className='header'>
         <Nav/>
         <Promo/>
       </header>
-      <section className="trial">
-        <TrialItem data={trialData1}/>
-        <TrialItem data={trialData2}/>
-        <TrialItem data={trialData3}/>
-      </section>
-    </main>
+      <main>
+        <section className="trial">
+          <TrialItem data={trialData1}/>
+          <TrialItem data={trialData2}/>
+          <TrialItem data={trialData3}/>
+        </section>
+      </main>
+    </div>
   );
 }
 
