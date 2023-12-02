@@ -66,3 +66,14 @@
     color: #00DF9A;
     background: #000;
 }
+
+@media (max-width: 480px) {
+    .trial {
+        padding: 160px 16px;
+        flex-direction: column;
+    }
+
+    .trial__item {
+        width: 358px;
+    }
+}
