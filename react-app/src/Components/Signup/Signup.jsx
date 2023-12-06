@@ -11,7 +11,11 @@ const Signup = () => {
                 </div>
                 <div className="signup_form">
                     <form>
-                        <input type="text" name='Email' className="Inp"></input><button class="btn_form" type="submit" > Notify Me </button>
+                        <div className="dis">
+                             <input type="text" name='Email' className="Inp"></input>
+                        <button class="btn_form" type="submit" > Notify Me </button>
+                        </div>
+                       
                         <p>We care bout the protection of your data. Read our</p>
                         <p className="Green_text">Privacy Policy.</p>
                     </form>

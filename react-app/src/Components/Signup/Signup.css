@@ -1,15 +1,21 @@
 .signup {
    width: 100%;
    background: #000; 
-   display: inline-flex;
+   display: flex;
    padding: 64px 340px;
-   flex-direction: column;
+   /* flex-direction: column; */
    align-items: center;
 }
 
+ @media (max-width: 480px) {
+   .signuup_wpaper{
+flex-direction: column;   }
+ }
+   
+
 .signuup_wpaper {
    display: flex;
-   padding: 64px 340px;
+   /* padding: 64px 340px; */
    
    
 }
@@ -47,10 +53,13 @@
 }
 
 .signup_form {
-   color:#FFF
+   color:#FFF;
+   /* width: 100%; */
    
 }
-
+.dis{
+   display: flex;
+}
 .btn_form {
    border-radius: 6px;
    background: #00DF9A;
@@ -59,6 +68,7 @@
    padding: 12px 36.58px 12px 36.76px;
    flex-direction: column;
    align-items: center;
+      height: 47px;
 }
 .Green_text {
    color: #00DF9A;
@@ -70,11 +80,14 @@
 }
 
 .Inp{
-   display: flex;
+   /* display: flex; */
    padding: 11px 12px 12px 12px;
-   align-items: flex-start;
+   /* align-items: flex-start; */
    border-radius: 6px;
    background: #FFF;
+   width: 258px;
+   height: 47px;
+   margin-bottom: 24px;
 }
 
 
