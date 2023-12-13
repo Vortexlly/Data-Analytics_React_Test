@@ -42,7 +42,8 @@ const Footer = () => {
           <li>API Status</li>
         </oll>
         <oll className='oll_3'>
-          <p className="ol_title">About</p>
+          <p className="ol_title">Company</p>
+          <li>About</li>
           <li>Blog</li>
           <li>Jobs</li>
           <li>Press</li>
