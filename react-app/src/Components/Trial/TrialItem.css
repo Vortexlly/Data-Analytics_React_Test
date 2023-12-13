@@ -74,6 +74,11 @@
     }
 
     .trial__item {
-        width: 358px;
+        width: 100%;
+    }
+
+    .trial__text {
+        width: 100%;
+        padding: 9px 0;
     }
 }

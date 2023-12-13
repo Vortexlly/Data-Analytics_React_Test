@@ -6,6 +6,12 @@ const Nav = () => {
     document.querySelector('body').classList.toggle('overflow');
     document.querySelector('.hamburger').classList.toggle('hamburger_active');
   }
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
 
   return (
     <nav className='nav'>
@@ -18,7 +24,7 @@ const Nav = () => {
             <a href="/#" className="nav__link">About</a>
             <a href="/#" className="nav__link">Contact</a>
         </div>
-        <div className="hamburger" onClick={toggleMenu}>
+        <div className="hamburger" onClick={() => {toggleMenu(); scrollToTop()}}>
             <span></span>
             <span></span>
             <span></span>

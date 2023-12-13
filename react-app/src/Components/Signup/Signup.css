@@ -26,7 +26,7 @@ flex-direction: column;   }
    align-items: flex-start;
    gap: 9px; 
    width: 826px;
-   padding: 7px 192.66px 64px 0px;
+   padding: 7px 190.66px 64px 0px;
 }
 
 
@@ -65,10 +65,15 @@ flex-direction: column;   }
    background: #00DF9A;
    display: flex;
    width: 139.34px;
-   padding: 12px 36.58px 12px 36.76px;
+   padding: 12px 0;
    flex-direction: column;
    align-items: center;
-      height: 47px;
+   height: 47px;
+   color: #000;
+   text-align: center;
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 24px;
 }
 .Green_text {
    color: #00DF9A;
@@ -88,6 +93,40 @@ flex-direction: column;   }
    width: 258px;
    height: 47px;
    margin-bottom: 24px;
+}
+
+@media (max-width: 480px) {
+   .signup {
+      padding: 0;
+   }
+
+   .signuup_wpaper {
+      width: 100%;
+      padding: 80px 16px;
+   }
+
+   .signup_text {
+      width: 100%;
+      padding: 8px 14px 8px 0px;
+   }
+
+   .signup_p {
+      width: 100%;
+   }
+
+   .signup_title {
+      font-size: 23px;
+   }
+
+   .dis {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 24px;
+   }
+
+   .Inp {
+      width: 100%;
+   }
 }
 
 

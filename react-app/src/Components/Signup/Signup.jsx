@@ -12,7 +12,7 @@ const Signup = () => {
                 <div className="signup_form">
                     <form>
                         <div className="dis">
-                             <input type="text" name='Email' className="Inp"></input>
+                             <input placeholder="Enter email" type="text" name='Email' className="Inp"></input>
                         <button class="btn_form" type="submit" > Notify Me </button>
                         </div>
                        

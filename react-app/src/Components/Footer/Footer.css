@@ -1,7 +1,6 @@
 .footer_wrapper {
     width: 100%;
     background:rgb(18, 17, 17);
-    margin: 64px 340px 64px 0px;
     color: aliceblue;
     display: flex;
     justify-content: center;
@@ -89,3 +88,18 @@
     gap: 16px;
 }
 
+@media (max-width: 480px) {
+    .footer_wrapper {
+        padding: 64px 16px;
+        flex-direction: column;
+    }
+
+    .part2 {
+        width: 100%;
+        gap: 3vw;
+    }
+
+    .ol_title {
+        padding: 8px 8px 8px 0;
+    }
+}
