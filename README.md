@@ -1,4 +1,4 @@
-# Data-Analytics_React_Test
+# Data-Analytics project
 ![image](https://github.com/Vortexlly/Data-Analytics_React_Test/assets/121871951/8c1ac9fa-68c4-4429-b4ec-341e6fdd4df2)
 ____
 ## Description
