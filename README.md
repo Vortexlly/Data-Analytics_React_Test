@@ -1,5 +1,5 @@
 # Data-Analytics project
-![image](https://github.com/Vortexlly/Data-Analytics_React_Test/assets/121871951/8c1ac9fa-68c4-4429-b4ec-341e6fdd4df2)
+![image](./analytics.png)
 ____
 ## Description
 This is a regular pet project that demonstrates the use of various technologies. This project was made with an emphasis on teamwork, so pull-requests and branch merges were used here.
